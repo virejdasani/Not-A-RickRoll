@@ -1,0 +1,25 @@
+{
+  "name": "not-a-rickroll",
+  "version": "1.0.0",
+  "description": "This is Not A RickRoll",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack-darwin-x64": "electron-packager . 'Not a RickRoll' --platform=darwin --arch=x64 --icon=assets/AppIcons/icon.icns --out=builds --ignore=builds",
+    "pack-darwin-arm64": "electron-packager . 'Not a RickRoll' --platform=darwin --arch=arm64 --icon=assets/AppIcons/icon.icns --out=builds --ignore=builds",
+    "pack-win32-x64": "electron-packager . 'Not a RickRoll' --platform=win32 --arch=x64 --icon=assets/AppIcons/icon.ico --out=builds --ignore=builds",
+    "pack-linux-x64": "electron-packager . 'Not a RickRoll' --platform=linux --arch=x64 --icon=assets/AppIcons/icon.png --out=builds --ignore=builds"
+  },
+  "repository": "https://github.com/virejdasani/Not-A-RickRoll",
+  "keywords": [
+    "virej",
+    "pingu",
+    "noot",
+    "rickroll"
+  ],
+  "author": "Virej Dasani",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^20.0.1"
+  }
+}
